@@ -6,7 +6,6 @@ const port = 3000
 app.get('/', (req, res)=>{
     res.json('Hallo Jelek')
 })
-
 app.listen(port, ()=>{
     console.log(`Listening on Port ${port}`)
 })
